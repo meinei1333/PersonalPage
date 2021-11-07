@@ -1,0 +1,10 @@
+{
+    "header": {
+        "autobiography": "自傳",
+        "experience": "工作經驗",
+        "contact": "連絡我",
+        "portfolio": "作品集"
+    },
+    "footer": {
+    }
+}
