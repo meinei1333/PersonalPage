@@ -5,6 +5,10 @@
         "contact": "連絡我",
         "portfolio": "作品集"
     },
-    "footer": {
+    "contactMePage": {
+        "name": "姓名",
+        "email": "Email",
+        "content": "內容",
+        "submit": "送出"
     }
 }

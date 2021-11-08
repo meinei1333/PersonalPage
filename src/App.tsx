@@ -5,7 +5,7 @@ import { AutobiographyPage, ExperiencePage, ContactMePage } from "./pages";
 
 function App() {
   return (
-    <div className={styles["App"]}>
+    <div className={styles["app"]}>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={ExperiencePage} />

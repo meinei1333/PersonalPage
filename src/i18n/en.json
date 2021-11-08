@@ -5,5 +5,10 @@
         "contact": "Contact Me",
         "portfolio": "Portfolio"
     },
-    "footer": {}
+    "contactMePage": {
+        "name": "name",
+        "email": "Email",
+        "content": "content",
+        "submit": "submit"
+    }
 }
