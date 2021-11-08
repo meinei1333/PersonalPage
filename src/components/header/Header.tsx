@@ -17,12 +17,13 @@ export const Header: React.FC = () => {
 
     switch (e.key) {
       case '1':
-        console.log('111');
         history.push('autobiographyPage');
         break;
       case '2':
-        console.log('222');
         history.push('experiencePage');
+        break;
+      case '3':
+        history.push('contactMePage');
         break;
     }
   }
