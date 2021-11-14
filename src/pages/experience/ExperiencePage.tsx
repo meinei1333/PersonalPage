@@ -1,35 +1,44 @@
 import React from "react";
 import styles from "./ExperiencePage.module.css"
 import { Header } from "../../components"
-import { Table, Button, Space } from 'antd';
+import { Table } from 'antd';
+import { list } from './experienceData'
 
 const dataSource = [
     {
         key: '1',
         name: 'Mike',
-        age: 32,
-        address: '10 Downing Street',
+        position: 32,
+        duration: '10 Downing Street',
     },
     {
         key: '2',
         name: 'John',
-        age: 42,
-        address: '10 Downing Street',
+        position: 42,
+        duration: '10 Downing Street',
     },
 ];
 
 const columns = [
     {
+        title: '公司名稱',
         dataIndex: 'name',
         key: 'name',
     },
     {
-        dataIndex: 'age',
-        key: 'age',
+        title: '職位',
+        dataIndex: 'position',
+        key: 'position',
     },
     {
-        dataIndex: 'address',
-        key: 'address',
+        title: '期間',
+        dataIndex: 'duration',
+        key: 'duration',
+    },
+    {
+        title: '工作內容',
+        dataIndex: 'content',
+        key: 'content',
     },
 ];
 
@@ -38,6 +47,6 @@ const columns = [
 export const ExperiencePage: React.FC = () => {
     return <div className={styles["experience"]}>
         <Header></Header>
-        <Table dataSource={dataSource} columns={columns} pagination={false} showHeader={false} />;
+        <Table dataSource={list} columns={columns} pagination={false} />
     </div>
 }
