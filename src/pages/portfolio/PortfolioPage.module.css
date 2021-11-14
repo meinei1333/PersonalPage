@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+}
+
+.img_container {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personalPag_container {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgStyle {
+    margin: 10px;
+    min-width: 200px;
+    width: 200px;
+}
+
+.imgStyle:hover {
+    cursor: pointer;
+}

@@ -10,8 +10,6 @@ export const Header: React.FC = () => {
   const { t } = useTranslation();
   const history = useHistory();
 
-  console.log('useHistory:', useHistory);
-
   const handleClick = (e: any) => {
     console.log(e);
 
@@ -24,6 +22,9 @@ export const Header: React.FC = () => {
         break;
       case '3':
         history.push('contactMePage');
+        break;
+      case '4':
+        history.push('portfolioPage');
         break;
     }
   }
