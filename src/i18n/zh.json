@@ -1,6 +1,6 @@
 {
     "header": {
-        "autobiography": "自傳",
+        "autobiography": "自我介紹",
         "experience": "工作經驗",
         "contact": "連絡我",
         "portfolio": "作品集"
@@ -10,5 +10,13 @@
         "email": "Email",
         "content": "內容",
         "submit": "送出"
+    },
+    "autogiography": {
+        "content1": "從靜宜大學的資管系畢業後, 一直都從事軟体開發的工作",
+        "content2": "開發過的專案",
+        "content3": "IBM AS/400大型主機上的銀行信託會計系統、HR系統、倉庫儲存系統(前後瑞一起)展覽/演唱會排位統、FB遊戲、抽獎遊戲(前瑞)Poker, Slot, 刮刮樂, 魚機, 區塊鏈遊戲(前瑞)主要使用 Canvas框架是pixijs, phaser. web框架是React, Redux",
+        "content4": "展覽/演唱會排位統、FB遊戲、抽獎遊戲(前瑞)Poker, Slot, 刮刮樂, 魚機, 區塊鏈遊戲(前瑞)主要使用 Canvas框架是pixijs, phaser. web框架是React, Redux",
+        "content5": "Poker, Slot, 刮刮樂, 魚機, 區塊鏈遊戲(前瑞)",
+        "content6": "主要使用 Canvas框架是pixijs, phaser. web框架是React, Redux"
     }
 }

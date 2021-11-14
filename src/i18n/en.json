@@ -1,6 +1,6 @@
 {
     "header": {
-        "autobiography": "Autobiography",
+        "autobiography": "Self introduction",
         "experience": "Experience",
         "contact": "Contact Me",
         "portfolio": "Portfolio"
@@ -10,5 +10,8 @@
         "email": "Email",
         "content": "content",
         "submit": "submit"
+    },
+    "autogiography": {
+        "content":"aa"
     }
 }

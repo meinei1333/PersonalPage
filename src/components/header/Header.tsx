@@ -34,8 +34,8 @@ export const Header: React.FC = () => {
       <Menu mode={"horizontal"} className={styles["main-menu"]} defaultSelectedKeys={['1']} onClick={handleClick}>
         <Menu.Item key="1">{t("header.autobiography")}</Menu.Item>
         <Menu.Item key="2">{t("header.experience")}</Menu.Item>
-        <Menu.Item key="3">{t("header.contact")}</Menu.Item>
         <Menu.Item key="4">{t("header.portfolio")}</Menu.Item>
+        <Menu.Item key="3">{t("header.contact")}</Menu.Item>
       </Menu>
     </div>
   );

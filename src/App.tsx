@@ -8,7 +8,7 @@ function App() {
     <div className={styles["app"]}>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={ExperiencePage} />
+          <Route exact path="/" component={AutobiographyPage} />
           <Route path="/autobiographyPage" component={AutobiographyPage} />
           <Route path="/experiencePage" component={ExperiencePage} />
           <Route path="/contactMePage" component={ContactMePage} />
