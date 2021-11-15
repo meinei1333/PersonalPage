@@ -17,5 +17,11 @@
     "portfolioPage": {
         "game": "Game",
         "web": "Personal Page"
+    },
+    "experiencePage": {
+        "companyName": "Company",
+        "position": "Position",
+        "duration": "Duration",
+        "content": "Contend"
     }
 }
