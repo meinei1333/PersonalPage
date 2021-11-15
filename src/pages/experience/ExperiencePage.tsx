@@ -4,26 +4,12 @@ import { Header } from "../../components"
 import { Table } from 'antd';
 import { list } from './experienceData'
 
-const dataSource = [
-    {
-        key: '1',
-        name: 'Mike',
-        position: 32,
-        duration: '10 Downing Street',
-    },
-    {
-        key: '2',
-        name: 'John',
-        position: 42,
-        duration: '10 Downing Street',
-    },
-];
-
 const columns = [
     {
         title: '公司名稱',
         dataIndex: 'name',
         key: 'name',
+        width: 50.
     },
     {
         title: '職位',
@@ -39,6 +25,11 @@ const columns = [
         title: '工作內容',
         dataIndex: 'content',
         key: 'content',
+        render: (text:any, record:any) => (
+            <div style={{ wordWrap: 'break-word', wordBreak: 'break-word' }}>
+              {text}
+            </div>
+          ),
     },
 ];
 

@@ -49,9 +49,9 @@ export const PortfolioPage: React.FC = () => {
             </div>
             <div className={styles["personalPag_container"]}>
                 <Typography.Title>個人網頁</Typography.Title>
-                <img className={styles["imgStyle"]} src={p1} alt="p1" onClick={onClickPage} />
-                <img className={styles["imgStyle"]} src={p2} alt="p2" onClick={onClickPage} />
-                <img className={styles["imgStyle"]} src={p3} alt="p3" onClick={onClickPage} />
+                <img className={styles["personalWeb"]} src={p1} alt="p1" onClick={onClickPage} />
+                <img className={styles["personalWeb"]} src={p2} alt="p2" onClick={onClickPage} />
+                <img className={styles["personalWeb"]} src={p3} alt="p3" onClick={onClickPage} />
             </div>
         </div>
     </div>
