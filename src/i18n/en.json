@@ -12,6 +12,6 @@
         "submit": "submit"
     },
     "autogiography": {
-        "content":"aa"
+        "content": "Since I graduated from University over ten years, I have always done the job in software development.<br/>The projects:<br/>In IBM AS//400 bank system, HR system, Warehousing system(full stack)<br/>Exhibition/concert sort system, FB game, lottery(front end)<br/>poker, scratch, slot, fish game, gamefi(front end)<br/>Canvas framework use pixijs and Phaser<br/>Web framework use React and Redux"
     }
 }
