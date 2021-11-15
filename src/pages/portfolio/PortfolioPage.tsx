@@ -8,8 +8,10 @@ import slot from "../../assets/slot.png";
 import p1 from "../../assets/p1.png";
 import p2 from "../../assets/p2.png";
 import p3 from "../../assets/p3.png";
+import { useTranslation } from "react-i18next";
 
 export const PortfolioPage: React.FC = () => {
+    const { t } = useTranslation();
     function onclickImage(e: any) {
         switch (e.target.alt) {
             case "fishgame":
@@ -42,13 +44,13 @@ export const PortfolioPage: React.FC = () => {
         <Header></Header>
         <div className={styles["container"]}>
             <div className={styles["img_container"]}>
-                <Typography.Title>遊戲</Typography.Title>
+                <Typography.Title>{t("portfolioPage.game")}</Typography.Title>
                 <img className={styles["imgStyle"]} src={fishGame} alt="fishgame" onClick={onclickImage} />
                 <img className={styles["imgStyle"]} src={poker} alt="poker" onClick={onclickImage} />
                 <img className={styles["imgStyle"]} src={slot} alt="poker" onClick={onclickImage} />
             </div>
             <div className={styles["personalPag_container"]}>
-                <Typography.Title>個人網頁</Typography.Title>
+                <Typography.Title>{t("portfolioPage.web")}</Typography.Title>
                 <img className={styles["personalWeb"]} src={p1} alt="p1" onClick={onClickPage} />
                 <img className={styles["personalWeb"]} src={p2} alt="p2" onClick={onClickPage} />
                 <img className={styles["personalWeb"]} src={p3} alt="p3" onClick={onClickPage} />
