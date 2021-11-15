@@ -11,8 +11,6 @@ export const Header: React.FC = () => {
   const history = useHistory();
 
   const handleClick = (e: any) => {
-    console.log(e);
-
     switch (e.key) {
       case '1':
         history.push('autobiographyPage');
