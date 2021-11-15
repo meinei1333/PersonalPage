@@ -5,6 +5,8 @@ import { Typography } from 'antd';
 import fishGame from "../../assets/fishGame.png";
 import poker from "../../assets/poker.png";
 import slot from "../../assets/slot.png";
+import tank from "../../assets/tank.png";
+import frequency from "../../assets/frequency.png";
 import p1 from "../../assets/p1.png";
 import p2 from "../../assets/p2.png";
 import p3 from "../../assets/p3.png";
@@ -22,6 +24,12 @@ export const PortfolioPage: React.FC = () => {
                 break;
             case "poker":
                 window.open('https://drive.google.com/file/d/1tnbQDR80BRiPcejSCS4gz5SGOdyh_xG8/view', 'poker');
+                break;
+            case "tank":
+                window.open('https://meinei1333.000webhostapp.com/tank/index.html', 'tank');
+                break;
+            case "frequency":
+                window.open('https://meinei1333.000webhostapp.com/frequency/index.html', 'frequency');
                 break;
         }
     }
@@ -47,7 +55,9 @@ export const PortfolioPage: React.FC = () => {
                 <Typography.Title>{t("portfolioPage.game")}</Typography.Title>
                 <img className={styles["imgStyle"]} src={fishGame} alt="fishgame" onClick={onclickImage} />
                 <img className={styles["imgStyle"]} src={poker} alt="poker" onClick={onclickImage} />
-                <img className={styles["imgStyle"]} src={slot} alt="poker" onClick={onclickImage} />
+                <img className={styles["imgStyle"]} src={slot} alt="slot" onClick={onclickImage} />
+                <img className={styles["imgStyle"]} src={tank} alt="tank" onClick={onclickImage} />
+                <img className={styles["imgStyle"]} src={frequency} alt="frequency" onClick={onclickImage} />
             </div>
             <div className={styles["personalPag_container"]}>
                 <Typography.Title>{t("portfolioPage.web")}</Typography.Title>
