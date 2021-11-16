@@ -39,6 +39,6 @@ export const ExperiencePage: React.FC = () => {
 
     return <div className={styles["experience"]}>
         <Header></Header>
-        <Table dataSource={list} columns={columns} pagination={false} />
+        <Table className={styles["table"]} dataSource={list} columns={columns} pagination={false} />
     </div>
 }

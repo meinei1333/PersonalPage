@@ -2,3 +2,8 @@
     height: 100%;
     width: 100%;
 }
+
+.table tr:nth-child(even)
+ {
+    background-color: rgb(154, 205, 250);
+}
