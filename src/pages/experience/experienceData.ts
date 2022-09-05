@@ -1,9 +1,16 @@
 export const list = [
   {
+    key: '0',
+    name: 'Bunastar',
+    position: 'Front end develop',
+    duration: '2021/12 ~ 2022/7',
+    content: 'Live',
+  },
+  {
     key: '1',
     name: 'freelance',
     position: 'freelance',
-    duration: '2020/6 ~ now',
+    duration: '2020/6 ~ 2021/12',
     content: '接案',
   },
   {
